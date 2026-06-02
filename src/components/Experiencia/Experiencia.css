@@ -1,0 +1,67 @@
+.exp__lista {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.exp__card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-md);
+  padding: 2.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.exp__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.exp__cargo {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.exp__empresa {
+  font-size: 1.4rem;
+  color: var(--blue-accent);
+  margin-top: 0.4rem;
+}
+
+.exp__periodo {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--grey-dark);
+  white-space: nowrap;
+  background-color: var(--blue-main);
+  border: 1px solid var(--card-border);
+  border-radius: 2rem;
+  padding: 0.3rem 1.2rem;
+}
+
+.exp__actividades {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.exp__actividad {
+  font-size: 1.5rem;
+  color: var(--grey-light);
+  line-height: 1.7;
+  display: flex;
+  gap: 1rem;
+}
+
+.exp__bullet {
+  color: var(--blue-accent);
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}

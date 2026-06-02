@@ -1,0 +1,141 @@
+.hero {
+  min-height: 100vh;
+  background-color: var(--blue-dark);
+  display: flex;
+  align-items: center;
+  padding: 8rem 2.4rem 6rem;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.hero__inner {
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+/* ── Izquierda: identidad ── */
+.hero__left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.hero__subtitulo {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--blue-accent);
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.hero__nombre {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.1;
+}
+
+.hero__typing {
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--grey-mid);
+  min-height: 3rem;
+}
+
+.hero__cursor {
+  color: var(--blue-accent);
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+.hero__redes {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 0.4rem;
+}
+
+.hero__red img {
+  width: 2.4rem;
+  height: 2.4rem;
+  opacity: 0.7;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.hero__red:hover img {
+  opacity: 1;
+  transform: translateY(-3px);
+}
+
+.hero__botones {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  margin-top: 0.8rem;
+}
+
+/* ── Derecha: sobre mi ── */
+.hero__right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-md);
+  padding: 3rem;
+}
+
+.hero__sobre-titulo {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+  color: var(--blue-accent);
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.hero__sobre-titulo::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background-color: var(--card-border);
+}
+
+.hero__sobre-parrafo {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--grey-light);
+  line-height: 1.8;
+}
+
+/* ── Responsive ── */
+@media (min-width: 1024px) {
+  .hero__inner {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 6rem;
+  }
+
+  .hero__left {
+    flex: 0 0 320px;
+    position: sticky;
+    top: 4rem;
+  }
+
+  .hero__right {
+    flex: 1;
+  }
+
+  .hero__nombre {
+    font-size: 5.6rem;
+  }
+}

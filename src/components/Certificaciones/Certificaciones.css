@@ -1,0 +1,72 @@
+.cert__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.4rem;
+}
+
+.cert__card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-md);
+  padding: 2rem 2.4rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.6rem;
+  transition: border-color 0.2s ease;
+}
+
+.cert__card:hover {
+  border-color: var(--blue-accent);
+}
+
+.cert__icono {
+  flex-shrink: 0;
+  width: 3.2rem;
+  height: 3.2rem;
+  background-color: var(--blue-mid);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: var(--white);
+  font-weight: 700;
+  margin-top: 0.2rem;
+}
+
+.cert__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.cert__nombre {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--white);
+  line-height: 1.4;
+}
+
+.cert__meta {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cert__institucion {
+  font-size: 1.2rem;
+  color: var(--blue-accent);
+  font-weight: 500;
+}
+
+.cert__fecha {
+  font-size: 1.2rem;
+  color: var(--grey-dark);
+}
+
+@media (min-width: 768px) {
+  .cert__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "personal": {
+    "nombre": "Maximiliano Fanara",
+    "titulo": "Analista Programador",
+    "subtitulo": "Desarrollador Backend",
+    "cv": "/assets/cv/cv-maximiliano-fanara.pdf",
+    "redes": {
+      "linkedin": "https://linkedin.com/in/maximilianofanara",
+      "github":   "https://github.com/MaxiiFanara",
+      "email":    "mailto:maximiliano.fanara.it@gmail.com"
+    }
+  },
+
+  "sobreMi": {
+    "parrafos": [
+      "Soy estudiante de la Tecnicatura en Analisis de Sistemas de Computacion en el Instituto Cervantes de Cordoba, con certificacion intermedia como Analista Programador.",
+      "Estoy enfocado en el desarrollo backend, construyendo APIs RESTful con Node.js y Express.js, incorporando autenticacion y autorizacion mediante JWT y Passport.js, y aplicando patrones de diseno como Singleton, DAO y DTO.",
+      "Complemento mi perfil con conocimientos en frontend (HTML5, CSS3, Bootstrap y JavaScript ES6+). Trabajo con Git y GitHub, realizo testing con Postman, diseno bases de datos relacionales y tengo experiencia en SQL Server.",
+      "Busco oportunidades como desarrollador junior, pasantias o practicas donde pueda seguir creciendo y aportar valor desde el inicio."
+    ]
+  },
+
+  "experiencia": {
+    "titulo": "Experiencia Laboral",
+    "items": [
+      {
+        "id": 1,
+        "cargo": "Analista Programador Freelance",
+        "empresa": "Independiente",
+        "periodo": "2025 - Actualidad",
+        "actividades": [
+          "Deteccion de requerimientos y alcances del proyecto junto al cliente.",
+          "Diseno de base de datos relacional aplicando normalizacion 3FN.",
+          "Desarrollo de soluciones backend con Node.js y Express.js para la construccion de APIs RESTful seguras, escalables y eficientes.",
+          "Diseno e implementacion de endpoints, estructuras de datos y logica de negocio, con autenticacion y autorizacion mediante JWT y Passport.js.",
+          "Gestion de bases de datos relacionales con SQL Server. Implementacion de patrones DAO, DTO y Singleton.",
+          "Testing y validacion de endpoints con Postman. Control de versiones con Git y GitHub en entornos colaborativos."
+        ]
+      }
+    ]
+  },
+
+  "educacion": {
+    "titulo": "Educacion",
+    "items": [
+      {
+        "id": 1,
+        "institucion": "Instituto Cervantes",
+        "titulo": "Analista en Sistemas de Computacion",
+        "periodo": "2024 - Actualidad",
+        "logo": "/assets/images/logo-cervantes.png"
+      },
+      {
+        "id": 2,
+        "institucion": "Coderhouse",
+        "titulo": "Desarrollo Web Full Stack",
+        "periodo": "Abr. 2023 - Mar. 2026",
+        "logo": "/assets/images/logo-coderhouse.png"
+      }
+    ]
+  },
+
+  "certificaciones": {
+    "titulo": "Certificaciones",
+    "items": [
+      { "id": 1, "nombre": "Backend III: Testing y Escalabilidad Backend", "institucion": "CoderHouse", "fecha": "Mar. 2026" },
+      { "id": 2, "nombre": "Backend II: Diseno y Arquitectura Backend",     "institucion": "CoderHouse", "fecha": "Feb. 2026" },
+      { "id": 3, "nombre": "Backend I: Desarrollo Avanzado de Backend",     "institucion": "CoderHouse", "fecha": "Feb. 2025" },
+      { "id": 4, "nombre": "Carrera de Desarrollo Frontend React",          "institucion": "CoderHouse", "fecha": "Ene. 2025" },
+      { "id": 5, "nombre": "React JS",                                      "institucion": "CoderHouse", "fecha": "Ene. 2025" },
+      { "id": 6, "nombre": "Curso de JavaScript",                           "institucion": "CoderHouse", "fecha": "Ago. 2023" },
+      { "id": 7, "nombre": "Desarrollo Web - HTML5, CSS3, Bootstrap",       "institucion": "CoderHouse", "fecha": "2023"       }
+    ]
+  },
+
+  "aptitudes": {
+    "titulo": "Aptitudes",
+    "habilidades": [
+      "Normalizacion de bases de datos",
+      "Analisis de requerimientos",
+      "Programacion orientada a objetos",
+      "Manejo de versiones con Git",
+      "Desarrollo de APIs RESTful",
+      "Autenticacion y autorizacion con JWT",
+      "Patrones de diseno (Singleton, DAO, DTO)",
+      "Testing de endpoints con Postman",
+      "Metodologias agiles (Scrum)"
+    ],
+    "stack": [
+      { "nombre": "Node.js",    "icono": "/assets/images/icon-nodejs.png"     },
+      { "nombre": "Express.js", "icono": "/assets/images/icon-express.png"    },
+      { "nombre": "JavaScript", "icono": "/assets/images/icon-js.png"         },
+      { "nombre": "React.js",   "icono": "/assets/images/icon-react.png"      },
+      { "nombre": "SQL Server", "icono": "/assets/images/icon-sql.png"        },
+      { "nombre": "MongoDB",    "icono": "/assets/images/icon-mongodb.png"    },
+      { "nombre": "Git",        "icono": "/assets/images/icon-git.png"        },
+      { "nombre": "GitHub",     "icono": "/assets/images/icon-github-hab.png" }
+    ]
+  },
+
+  "proyectos": {
+    "titulo": "Proyectos",
+    "items": [
+      {
+        "id": 1,
+        "titulo": "E-commerce Backend",
+        "descripcion": "Sistema completo de backend para e-commerce con autenticacion JWT, gestion de productos, carritos y sistema de compras con generacion de tickets. Implementa Passport.js, Nodemailer y cookies firmadas.",
+        "tecnologias": ["Node.js", "Express.js", "MongoDB", "JWT", "Passport.js"],
+        "repo": "https://github.com/MaxiiFanara/BackendII-Final"
+      },
+      {
+        "id": 2,
+        "titulo": "AdoptMe - API REST",
+        "descripcion": "API REST para gestion de adopcion de mascotas con Node.js, Express y MongoDB. Imagen publicada en Docker Hub lista para deployar con un solo comando.",
+        "tecnologias": ["Node.js", "Express.js", "MongoDB", "Docker"],
+        "repo": "https://github.com/MaxiiFanara/BackendIII",
+        "docker": "https://hub.docker.com/r/maxifana/adoptme"
+      },
+      {
+        "id": 3,
+        "titulo": "Gestion de Inventario - SQL Server",
+        "descripcion": "Script SQL completo con creacion de base de datos, tablas normalizadas, stored procedures CRUD y vistas relacionales para gestion de inventario.",
+        "tecnologias": ["SQL Server", "T-SQL", "Stored Procedures"],
+        "repo": "https://github.com/MaxiiFanara"
+      }
+    ]
+  },
+
+  "contacto": {
+    "titulo": "Contacto",
+    "texto": "Tenes alguna propuesta o simplemente queres saludar? Podes comunicarte conmigo a traves de LinkedIn, GitHub o por email.",
+    "links": [
+      { "nombre": "LinkedIn", "url": "https://linkedin.com/in/maximilianofanara",      "icono": "/assets/images/icon-linkedin.png" },
+      { "nombre": "Email",    "url": "mailto:maximiliano.fanara.it@gmail.com",          "icono": "/assets/images/icon-email.png"    },
+      { "nombre": "GitHub",   "url": "https://github.com/MaxiiFanara",                 "icono": "/assets/images/icon-github.png"   }
+    ]
+  },
+
+  "footer": {
+    "nombre": "Maximiliano Fanara",
+    "redes": [
+      { "nombre": "LinkedIn", "url": "https://linkedin.com/in/maximilianofanara", "icono": "/assets/images/icon-linkedin.png" },
+      { "nombre": "GitHub",   "url": "https://github.com/MaxiiFanara",           "icono": "/assets/images/icon-github.png"   },
+      { "nombre": "Email",    "url": "mailto:maximiliano.fanara.it@gmail.com",   "icono": "/assets/images/icon-email.png"    }
+    ]
+  }
+}
